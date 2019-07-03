@@ -1,5 +1,7 @@
 package com.stackroute.pe3;
-
+/*a program to create a ChessBoard pattern with the help of multidimensional array, where
+WWrepresents white color and BB represents Black color.
+* */
 public class chessPattern {
     String[][] matrix1;
     int rows,columns;

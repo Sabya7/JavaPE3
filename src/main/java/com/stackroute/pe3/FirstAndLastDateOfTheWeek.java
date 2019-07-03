@@ -1,5 +1,6 @@
 package com.stackroute.pe3;
-
+/*a java program to calculate first and last date of a week.
+* */
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 

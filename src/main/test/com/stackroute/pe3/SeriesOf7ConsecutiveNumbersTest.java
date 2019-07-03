@@ -23,6 +23,12 @@ public class SeriesOf7ConsecutiveNumbersTest {
         String result=SeriesOf7ConsecutiveNumbers.checkSeriesOf7("10 11 12 13 14 15 16 17");
         assertEquals("is consecutive",result);
     }
+    @Test
+    public void Seriesof7ShouldReturnIsConsecutive2()
+    {
+        String result=SeriesOf7ConsecutiveNumbers.checkSeriesOf7("-10 -11 -12 -13 -14 -15 -16 -17");
+        assertEquals("is consecutive",result);
+    }
 
 
 }

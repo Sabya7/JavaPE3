@@ -1,5 +1,5 @@
 package com.stackroute.pe3;
-
+//a program to set up an array of places, Loop round and remove the vowels.
 public class RemoveVowelsFromStrings {
    String[] places;String result="";
     public String places(String input)
